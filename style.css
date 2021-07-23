@@ -1,0 +1,113 @@
+.menu{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	width:300px;
+	font-size:0;
+	position:absolute;
+	left:1100px;
+	bottom:700px;
+}
+.menu ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	width:150px;
+}
+.menu a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding: 5px 10px;
+} 
+.menu>li:hover>a{
+	background:lightblue;
+	border-radius:30px;
+}
+.menu li li a{
+	color:black;
+} 
+.menu li li:hover a{
+	font-weight:bold;
+	color:red;
+} 
+.menu >li{
+	position:relative;
+	font-size:1rem;
+	display: inline-block;
+} 
+.menu ul{
+	position:absolute;
+	
+	top: 10;
+	z-index: 10;
+	display: none;
+} 
+.menu >li:hover ul{
+	display: block;
+} 
+.pic1{
+	width:100px;
+	height:100px;
+}
+.pic2{
+	width:300px;
+	height:300px;
+}
+.pic3{
+	width:300px;
+	height:300px;
+}
+.pic4{
+	width:300px;
+	height:300px;
+	margin-left:100px;
+}
+.pic5{
+	width:300px;
+	height:300px;
+	margin-left:100px;
+}
+.pic6{
+	width:300px;
+	height:300px;
+	margin-left:100px;
+}
+.text1{
+	width:1250px;
+	height:300px;
+	background-color:gray;
+	display:inline-block;
+	float:right;
+}
+.text2{
+	width:1250px;
+	height:300px;
+	background-color:gray;
+	display:inline-block;
+	float:left;
+}
+.text0{
+	width:1500px;
+	height:100px;
+	background-color:gray;
+	display:inline-block;
+}
+.text3{
+	width:1500px;
+	height:500px;
+	background-color:gray;
+	display:inline-block;
+}
+.text4{
+	width:300px;
+	height:300px;
+	margin-left:100px;
+	background-color:gray;
+	display:inline-block;
+}
+.line1{
+	width:100%;
+	height:3px;
+	background-color:grey;
+}
